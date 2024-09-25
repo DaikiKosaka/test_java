@@ -8,7 +8,7 @@ public class cytech03 {
 		// 設問3
 		long epochSecond = Instant.now().getEpochSecond();
 		
-		System.out.println("1970年1月1日 00:00:00" + epochSecond);
+		System.out.println("1970年1月1日 00:00:00何秒経ったか。" + epochSecond);
 		
 		//if文
 		if(epochSecond % 2 == 0) {
